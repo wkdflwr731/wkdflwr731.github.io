@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    {% include css-partial.html %}
+  </head>
+  <body>
+    <header>{% include nav-partial.html %}</header>
+    <main>{{ content }}</main>
+    <footer>{% include footer.html %}</footer>
+  </body>
+</html>
